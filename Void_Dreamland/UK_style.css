@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg-image {
+  
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #UK-1{
+    background-image: url('images/UK_1.png');
+  }
+
+  #UK-2{
+    background-image: url('images/UK_2.png');
+  }
+
+  #UK-3{
+    background-image: url('images/UK_3.png');
+  }
+
+
+  .button-container {
+    position: absolute;
+    bottom:1%; /*move up and down*/
+    left:15%;/*move left and right*/
+}
+
+.button-container button {
+    display:inline-block;
+    width: 150px;
+    height: 60px;
+    color: black;
+    font-size: 28px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#false-btn{
+  border: 2px solid red;
+	background-color: rgba(220, 0, 0, 0.5);
+  margin-right: 300px; /*adjust the gap*/
+}
+
+#true-btn {
+	border: 2px solid blue;
+	background-color: rgba(0, 0, 220, 0.5);
+  margin-left: 300px;
+}
+
+.button-container button:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
