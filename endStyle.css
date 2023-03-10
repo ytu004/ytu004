@@ -2,17 +2,32 @@
  body{
 	font-family: 'Times New Roman', Times, serif;
  }
+
+
+
+  
 .bg-image {
-	position: fixed;
+	position: absolute;
+	
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background-image: url('./images/end.png');
-	background-size: cover;
 	background-position: center;
   }
 
+  .here {
+	position: absolute;
+	top:57%;
+	left: 51%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	padding: 100px;
+	border-radius: 100px;
+	font-size:200%;
+	
+  }
 
  
    .form-container {
@@ -25,6 +40,8 @@
 	border-radius: 100px;
 	
   }
+
+  
   /* Style the form input fields */
   input[type='text'] {
 	width: 100%;
